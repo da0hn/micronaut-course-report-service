@@ -1,2 +1,3 @@
-#Sun Feb 04 15:58:58 UTC 2024
-micronaut.application.name=report-service
+micronaut:
+  application:
+    name: report-service
