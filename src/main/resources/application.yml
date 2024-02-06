@@ -9,3 +9,8 @@ kafka:
 mongodb:
   uri: mongodb://root:root@localhost:27017/sales-db?authSource=admin
 
+consul:
+  client:
+    discovery:
+      enabled: true
+    default-zone: "localhost:8500"
