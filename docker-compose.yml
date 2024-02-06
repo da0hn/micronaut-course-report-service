@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  report-service-db:
+    image: mongo:7.0
+    container_name: report-service-db
+    hostname: report-service-db
+    restart: unless-stopped
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=root
+    ports:
+      - '27017:27017'
