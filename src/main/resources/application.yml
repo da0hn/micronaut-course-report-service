@@ -6,3 +6,6 @@ micronaut:
 kafka:
   bootstrap:
     servers: localhost:19092
+mongodb:
+  uri: mongodb://root:root@localhost:27017/sales-db?authSource=admin
+
